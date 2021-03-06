@@ -45,10 +45,15 @@ Used the  [Starter kit instructions](STARTERKIT_INSTRUCTIONS.md)
 1. Start docker environment using `.\Start-Hackathon.ps1`
 2. Open solution in Visual Studio and run build
 3. Use the Sitecore Installation wizard to install the [package](docs/TeamHorizon-SitecorePackage-1.zip)
+    a. Logon to instance at `https://cm.teamhorizon.localhost/sitecore/` using admin / b
 4. To run this React App, ensure you navigate to the project directory `\src\Project\horizonshop`
 5. In the project directory, you can run:
 
 ### `npm start`
+    
+a. Access the ReactJS App Home at `https://cm.teamhorizon.localhost/sitecore/`. If GraphQL endpoint is working correctly, we expect products list on the shp 'http://localhost:3000/shop'
+b. Access the shopping basket at `http://localhost:3000/cart`
+
 
 6. profit
 

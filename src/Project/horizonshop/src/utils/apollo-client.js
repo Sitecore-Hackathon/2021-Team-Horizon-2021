@@ -14,6 +14,7 @@ const createAuthLink = () => {
     operation.setContext({
       headers: {
         sc_apikey: token,
+        "Access-Control-Allow-Origin":"*",
       },
     });
   };
